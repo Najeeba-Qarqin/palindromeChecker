@@ -12,3 +12,24 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.wrapper {
+  max-width: 300px;
+  backdrop-filter: blur(5px);
+  border-radius: 7px;
+  padding: 20px 25px 15px;
+  margin: 6vw;
+  box-shadow: 0 0 20px gray;
+}
+
+header h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 11px;
+  color: gray;
+}
