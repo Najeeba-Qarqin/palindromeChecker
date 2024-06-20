@@ -72,3 +72,15 @@ header p {
 .inputs button.active {
   opacity: 1;
 }
+
+.info-text {
+  display: none;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
+.info-text span {
+  color: white;
+}
