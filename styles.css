@@ -47,7 +47,7 @@ header p {
   border-radius: 5px;
   border: 1px solid #999;
   background-color: black;
-  color: gray;
+  color: white;
 }
 
 .inputs input:focus {
