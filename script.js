@@ -20,4 +20,6 @@ txtInput.addEventListener("keyup", () => {
   if (filterInput) {
     return checkBtn.classList.add("active");
   }
+  infoTxt.style.display = "none";
+  checkBtn.classList.remove("active");
 });
