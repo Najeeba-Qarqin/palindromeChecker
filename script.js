@@ -9,4 +9,8 @@ checkBtn.addEventListener("click", () => {
   if (text === '') {
     return alert('Please input a value');
   }
+  infoTxt.style.display = "block";
+  if (filterInput != reverseInput) {
+    return infoTxt.innerHTML = `No <span>'${txtInput.value}'</span> is not a palindrome`;
+  }
 });
