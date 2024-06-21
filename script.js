@@ -15,3 +15,6 @@ checkBtn.addEventListener("click", () => {
   }
   infoTxt.innerHTML = `Yes <span>'${txtInput.value}'</span> is a palindrome`;
 });
+txtInput.addEventListener("keyup", () => {
+  filterInput = txtInput.value.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+});
