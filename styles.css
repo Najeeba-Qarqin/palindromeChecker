@@ -91,7 +91,7 @@ header p {
   }
 
   .font,
-  .inputs>.font {
+  .inputs > .font {
     font-size: 17px;
   }
 
