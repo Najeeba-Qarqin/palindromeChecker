@@ -17,4 +17,7 @@ checkBtn.addEventListener("click", () => {
 });
 txtInput.addEventListener("keyup", () => {
   filterInput = txtInput.value.toLowerCase().replace(/[^A-Z0-9]/ig, "");
+  if (filterInput) {
+    return checkBtn.classList.add("active");
+  }
 });
