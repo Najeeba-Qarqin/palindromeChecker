@@ -72,7 +72,7 @@ checkBtn.addEventListener("click", () => {
 
 ## Demo 📸
 
-![Demo](/Annotation%202024-06-21%20151053.png)
+![Demo](/images/Annotation%202024-06-21%20151053.png)
 
 ## Technologies Used 🛠️
 
